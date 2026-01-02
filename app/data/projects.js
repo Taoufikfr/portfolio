@@ -21,20 +21,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Task Management task management",
-    description: "Real-time task manager using Socket.io.",
-    techStack: ["React", "Firebase", "Tailwind"],
-    githubLink: "https://github.com/yourusername/task-app",
-    demoLink: "https://task-app-demo.com",
-    image: "/images/project2.png"
+    title: "Task Management App",
+    description: "A personal productivity hub designed to help individuals organize tasks, track goals, and boost efficiency.",
+    techStack: ["Angular", "Firebase", "scss"],
+    githubLink: "https://github.com/Taoufikfr/task-manager-app",
+    demoLink: "https://task-manager-new-4bd69.web.app/",
   },
   {
     id: 4,
-    title: "Task Management App",
-    description: "Real-time task manager using Socket.io.",
-    techStack: ["React", "Firebase", "Tailwind"],
-    githubLink: "https://github.com/yourusername/task-app",
-    demoLink: "https://task-app-demo.com",
+    title: "Portfolio App",
+    description: "A responsive personal website designed to showcase my full-stack projects, technical skills, and professional identity.",
+    techStack: ["Next.js", "Node.js", "MongoFirebaseDB"],
+    githubLink: "https://github.com/Taoufikfr/portfolio",
+    demoLink: "https://portfolio-taoufik.web.app/",
     image: "/images/project2.png"
   }
   // Add more projects here...

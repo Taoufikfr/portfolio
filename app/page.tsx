@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt, FaLinkedin } from 'react-icons/fa'; 
+import { FaGithub, FaExternalLinkAlt, FaLinkedin, FaFileDownload } from 'react-icons/fa'; 
 import { projects } from './data/projects'; // This is the import causing the error
 
 export default function Portfolio() {
@@ -13,6 +13,16 @@ export default function Portfolio() {
 
         {/* Social Links */}
         <div className="flex justify-center gap-6">
+          <div className="mb-8">
+    <a 
+      href="/cv.pdf" 
+      download="Taoufik_CV.pdf" // This is the name the file will have when downloaded
+      className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-full font-semibold transition-all shadow-lg hover:shadow-blue-500/20"
+    >
+      <FaFileDownload /> 
+      <span>Download Resume</span>
+    </a>
+  </div>
           <a 
             href="https://www.linkedin.com/in/taoufik-frihat-ba8278214/" 
             target="_blank" 
