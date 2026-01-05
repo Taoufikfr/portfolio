@@ -1,5 +1,3 @@
-// src/app/data/projects.js
-
 export const projects = [
   {
     id: 1,
@@ -8,15 +6,15 @@ export const projects = [
     techStack: ["Java", "SpringBoot", "Angular"],
     githubLink: "https://github.com/Taoufikfr/ecommerceapps",
     demoLink: "https://my-shop-ecommerce-be19a.web.app/",
-    image: "/images/ecoms.png" // Place image in public/images folder
+    image: "/images/ecoms.png" 
   },
   {
     id: 2,
-    title: "Task Management AiaBhost",
-    description: "Real-time task manager using Socket.io.",
-    techStack: ["React", "Firebase", "Tailwind"],
-    githubLink: "https://github.com/yourusername/task-app",
-    demoLink: "https://task-app-demo.com",
+    title: "TripStay Morocco",
+    description: "Real-time tripstay-morocco App for reservation rooms.",
+    techStack: ["Angular", "SpringBoot", "Java"],
+    githubLink: "https://github.com/Taoufikfr/tripstay-morocco",
+    demoLink: "https://tripstay-morocco.web.app/",
     image: "/images/project2.png"
   },
   {
@@ -36,5 +34,4 @@ export const projects = [
     demoLink: "https://portfolio-taoufik.web.app/",
     image: "/images/project2.png"
   }
-  // Add more projects here...
 ];
