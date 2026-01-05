@@ -4,11 +4,11 @@ export const projects = [
   {
     id: 1,
     title: "E-Commerce Dashboard",
-    description: "A full-stack dashboard with React and Node.js.",
-    techStack: ["Next.js", "Node.js", "MongoDB"],
-    githubLink: "https://github.com/yourusername/project-repo",
-    demoLink: "https://your-demo-link.vercel.app",
-    image: "/images/project1.png" // Place image in public/images folder
+    description: "A full-stack dashboard with SpringBoot and Angular.",
+    techStack: ["Java", "SpringBoot", "Angular"],
+    githubLink: "https://github.com/Taoufikfr/ecommerceapps",
+    demoLink: "https://my-shop-ecommerce-be19a.web.app/",
+    image: "/images/ecoms.png" // Place image in public/images folder
   },
   {
     id: 2,

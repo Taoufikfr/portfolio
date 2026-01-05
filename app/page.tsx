@@ -16,7 +16,7 @@ export default function Portfolio() {
           <div className="mb-8">
     <a 
       href="/cv.pdf" 
-      download="Taoufik_CV.pdf" // This is the name the file will have when downloaded
+      download="TaoufikCV.pdf" // This is the name the file will have when downloaded
       className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-full font-semibold transition-all shadow-lg hover:shadow-blue-500/20"
     >
       <FaFileDownload /> 
